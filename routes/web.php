@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/hello','helloController@index');
+Route::post('/ne','helloController@add');
+
